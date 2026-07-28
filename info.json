@@ -1,10 +1,23 @@
 {
   "addon": {
+    "id": "openings",
     "name": "Openings",
+    "type": "plugin",
     "version": "1.2",
+    "build": 1,
     "author": "SwiftyEdit Developer Team",
-    "description": "Manage opening hours for one or more locations in the backend and insert them into the frontend via shortcode."
+    "description": "Manage opening hours for one or more locations in the backend and insert them into the frontend via shortcode.",
+    "database": "openings.sqlite3",
+    "update_url": "https://raw.githubusercontent.com/SwiftyEdit/openings/main/info.json"
   },
+  "versions": [
+    {
+      "version": "1.2",
+      "build": 1,
+      "requires_build": "26-0183",
+      "download_url": "https://github.com/SwiftyEdit/openings/releases/download/v1.2/openings-1.2.zip"
+    }
+  ],
   "navigation": [
     {
       "text": "nav_overview",
