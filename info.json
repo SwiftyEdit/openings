@@ -1,0 +1,14 @@
+{
+  "addon": {
+    "name": "Openings",
+    "version": "1.2",
+    "author": "SwiftyEdit Developer Team",
+    "description": "Manage opening hours for one or more locations in the backend and insert them into the frontend via shortcode."
+  },
+  "navigation": [
+    {
+      "text": "nav_overview",
+      "file": "start"
+    }
+  ]
+}
